@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<id>Sub-category image in Top Menu</id>
+	<vqmver required="true">2.5.0</vqmver>
+	<author>viethemes.com</author>
+	<file name="catalog/view/theme/*/template/common/header.tpl">
+		<operation error="skip">
+			<search position="before"><![CDATA[<?php foreach ($styles as $style) { ?>]]></search>
+			<add><![CDATA[
+			<style>
+			header {
+				opacity: 1!important;
+			}
+			.dropdown-menu{
+				padding: 20px 0!important;
+			}
+			.dropdown-menu li{
+				padding:3px 10px;
+			}
+			#menu .dropdown-inner a{
+				padding: 0px!important;
+			}
+			#menu .dropdown-inner li a:hover {
+				color: #333;
+			}
+			.dropdown-menu li>a:hover {
+				background-color: #fff;
+				background-image: none;
+			}
+			#menu .dropdown-inner img{
+				border: 1px solid #f2f2f2;
+			}
+			</style>
+			]]></add>
+		</operation>
+	</file>	
+	<file name="catalog/controller/common/header.php">
+		<operation error="skip">
+			<search position="before"><![CDATA[foreach ($categories as $category) {]]></search>
+			<add><![CDATA[$this->load->model('tool/image');]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="before"><![CDATA[$children_data[] = array(]]></search>
+			<add><![CDATA[
+				if ($child['image']) {
+					$imagepath = $this->model_tool_image->resize($child['image'], 250, 150);
+					$image = ' <img src="'. $imagepath .'" alt="'. $child['name'] .'"/>';
+				} else {
+					$imagepath = $this->model_tool_image->resize('no_image.png', 20, 20);
+					$image = '';
+				}
+			]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="replace"><![CDATA['name'  => $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : '')]]></search>
+			<add><![CDATA['name'  => ($image) ? $image : $child['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : '')]]></add>
+		</operation>
+	</file>
+
+</modification>

@@ -1,0 +1,39 @@
+---------- Date: 2019-12-14 04:48:10 ~ IP : 207.46.13.232 ----------
+REQUEST URI : /LogicSmoke-30ml-CheseCake-e-Liquid
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in /home/cplogic/public_html/vqmod/xml/captcha_onepagecheckout.xml, line: 1
+MOD DETAILS:
+   modFile   : /home/cplogic/public_html/vqmod/xml/uksb_discount_with_specials.xml
+   id        : Fix Discounts wtih Specials
+   version   : 1.0
+   vqmver    : 1.2.3
+   author    : uksb
+
+File Name    : catalog/controller/product/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): foreach ($discounts as $discount) {
+				$data['discounts'][] = array(
+					'quantity' => $discount['quantity'],
+					'price'    => $this->currency->format($this->tax->calculate($discount['price'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency'])
+				);
+			}
+----------------------------------------------------------------------
+
+
+---------- Date: 2019-12-14 06:36:31 ~ IP : 122.170.192.215 ----------
+REQUEST URI : /logic-smoke-menthol-replacement-pods
+MOD DETAILS:
+   modFile   : /home/cplogic/public_html/vqmod/xml/uksb_discount_with_specials.xml
+   id        : Fix Discounts wtih Specials
+   version   : 1.0
+   vqmver    : 1.2.3
+   author    : uksb
+
+File Name    : catalog/controller/product/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): foreach ($discounts as $discount) {
+				$data['discounts'][] = array(
+					'quantity' => $discount['quantity'],
+					'price'    => $this->currency->format($this->tax->calculate($discount['price'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency'])
+				);
+			}
+----------------------------------------------------------------------
+
+

@@ -1,0 +1,14 @@
+---------- Date: 2021-11-23 10:11:38 ~ IP : 141.101.69.221 ----------
+REQUEST URI : /index.php?route=affiliate/register
+MOD DETAILS:
+   modFile   : /home/cplogic/public_html/vqmod/xml/page_banner_error_solution.xml
+   id        : page_banner_error_solution
+   version   : 4.4
+   vqmver    : 2.5.1
+   author    : output web
+
+File Name    : catalog/view/theme/logicsmoke/template/affiliate/*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <img src="<?php echo $page_banner; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-responsive" />
+----------------------------------------------------------------------
+
+

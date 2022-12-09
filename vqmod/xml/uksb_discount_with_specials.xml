@@ -1,0 +1,43 @@
+<modification>
+	<id>Fix Discounts wtih Specials</id>
+	<version>1.0</version>
+	<vqmver>1.2.3</vqmver>
+	<author>uksb</author>
+	<file name="system/library/cart/cart.php">
+		<operation>
+			<search position="replace" offset="2"><![CDATA[if ($product_special_query->num_rows) {]]></search>
+			<add><![CDATA[	if ($product_special_query->num_rows) {
+					if($product_discount_query->num_rows&&$product_discount_query->row['price']<=$product_special_query->row['price']){
+						$price = $product_discount_query->row['price'];
+					}else{
+						$price = $product_special_query->row['price'];
+					}
+				}]]></add>
+		</operation>
+	</file>
+	<file name="catalog/controller/product/product.php">
+		<operation>
+			<search position="replace" ><![CDATA[foreach ($discounts as $discount) {
+				$data['discounts'][] = array(
+					'quantity' => $discount['quantity'],
+					'price'    => $this->currency->format($this->tax->calculate($discount['price'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency'])
+				);
+			}]]></search>
+			<add><![CDATA[	foreach ($discounts as $discount) {
+				if((float)$product_info['special']){
+					if($product_info['special']>$discount['price']){
+						$this->data['discounts'][] = array(
+							'quantity' => $discount['quantity'],
+							'price'    => $this->currency->format($this->tax->calculate($discount['price'], $product_info['tax_class_id'], $this->config->get('config_tax')))
+						);
+					}
+				}else{
+					$this->data['discounts'][] = array(
+						'quantity' => $discount['quantity'],
+						'price'    => $this->currency->format($this->tax->calculate($discount['price'], $product_info['tax_class_id'], $this->config->get('config_tax')))
+					);
+				}
+			}]]></add>
+		</operation>
+	</file>
+</modification>

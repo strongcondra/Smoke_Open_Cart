@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<name>OnePage Checkout Captcha</name>
+	<version>v2.1</version>
+	<code>OnePage Checkout Captcha</code>
+	<author>Output Web</author>
+	<file name="catalog/view/theme/default/template/onepagecheckout/personal_details.tpl">
+		<operation>
+			<search position="before"><![CDATA[<?php if($text_agree){ ?>]]></search>
+			<add ><![CDATA[
+			    <!-- Captcha -->
+		        <?php echo $captcha; ?>
+		        <script>$(document).ready(function(){
+                    $('label[for="input-captcha"]').css("width", "100%"); 
+                    $("fieldset").css("margin", "10px 2px");
+                });</script>
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/controller/onepagecheckout/personal_details.php">
+		<operation>
+			<search position="before"><![CDATA[$data['shipping_required'] = $this->cart->hasShipping();]]></search>
+			<add ><![CDATA[
+			    // Captcha
+        		if ($this->config->get($this->config->get('config_captcha') . '_status') && in_array('register', (array)$this->config->get('config_captcha_page'))) {
+        			$data['captcha'] = $this->load->controller('extension/captcha/' . $this->config->get('config_captcha'), $this->error);
+        		} else {
+        			$data['captcha'] = '';
+        		}
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/controller/onepagecheckout/validate.php">
+		<operation>
+			<search position="before" offset="2"><![CDATA[private function setPaymentRequiredFeilds(){]]></search>
+			<add ><![CDATA[
+			   // Captcha
+        		if ($this->config->get($this->config->get('config_captcha') . '_status') && in_array('register', (array)$this->config->get('config_captcha_page'))) {
+        			$captcha = $this->load->controller('extension/captcha/' . $this->config->get('config_captcha') . '/validate');
+        
+        			if ($captcha) {
+        				$this->requireds['captcha'] = array(
+        					'required'	=> true,
+        					'errormsg'	=> $captcha,
+        				);
+        			}
+        		}
+			]]></add>
+		</operation>
+		<operation>
+			<search position="after"><![CDATA[foreach($this->requireds as $key => $required){]]></search>
+			<add ><![CDATA[
+			   if($key == 'captcha') {
+						if (!isset($this->request->post['captcha']) || $this->request->post['captcha'] == '') {
+							$json['error']['personal_details'][$key] = (!empty($required['errormsg'])) ? $required['errormsg'] : $this->language->get('error_zone');
+						}
+						if ($this->config->get($this->config->get('config_captcha') . '_status') && in_array('register', (array)$this->config->get('config_captcha_page'))) {
+                			$captcha = $this->load->controller('extension/captcha/' . $this->config->get('config_captcha') . '/validate');
+                
+                			if ($captcha) {
+                				$json['error']['personal_details'][$key] = $captcha;
+                			}
+                		}
+					}
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/view/theme/default/template/onepagecheckout/checkout.tpl">
+		<operation>
+			<search position="after"><![CDATA[if(json['error']['personal_details']){]]></search>
+			<add ><![CDATA[
+			    if(typeof(json['error']['personal_details']['captcha']) != "undefined" && json['error']['personal_details']['captcha'] !== null){
+				    $('#onepagecheckout .personal-details-content #input-captcha').parent().addClass('has-error');
+				    $('#onepagecheckout .personal-details-content #input-captcha').after('<div class="text-danger">' + json['error']['personal_details']['captcha'] + '</div>');
+				}else{
+				    $('#onepagecheckout .personal-details-content #input-captcha').parent().removeClass('has-error');
+				}
+			]]></add>
+		</operation>
+	</file>
+</modification>

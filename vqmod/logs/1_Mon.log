@@ -1,0 +1,118 @@
+---------- Date: 2021-11-15 05:27:58 ~ IP : 162.158.255.174 ----------
+REQUEST URI : /logicsmoke-eliquid/30ml-e-Liquid/logicsmoke-30ml-clove-e-liquid
+VQMod::_parseMods - INVALID XML FILE: : Document is empty in /home/cplogic/public_html/vqmod/xml/page_banner_error_solution.xml, line: 1
+MOD DETAILS:
+   modFile   : /home/cplogic/public_html/vqmod/xml/uksb_discount_with_specials.xml
+   id        : Fix Discounts wtih Specials
+   version   : 1.0
+   vqmver    : 1.2.3
+   author    : uksb
+
+File Name    : catalog/controller/product/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): foreach ($discounts as $discount) {
+				$data['discounts'][] = array(
+					'quantity' => $discount['quantity'],
+					'price'    => $this->currency->format($this->tax->calculate($discount['price'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency'])
+				);
+			}
+----------------------------------------------------------------------
+
+
+---------- Date: 2021-11-15 05:37:10 ~ IP : 172.69.35.29 ----------
+REQUEST URI : /?sscid=b1k5_gisb2&
+MOD DETAILS:
+   modFile   : /home/cplogic/public_html/vqmod/xml/page_banner_error_solution.xml
+   id        : page_banner_error_solution
+   version   : 4.4
+   vqmver    : 2.5.1
+   author    : output web
+
+File Name    : catalog/view/theme/logicsmoke/template/common/*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <img src="<?php echo $page_banner; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-responsive" />
+----------------------------------------------------------------------
+
+
+---------- Date: 2021-11-15 05:41:23 ~ IP : 162.158.75.172 ----------
+REQUEST URI : /logic-smoke-50ml-cherry-e-liquid
+MOD DETAILS:
+   modFile   : /home/cplogic/public_html/vqmod/xml/uksb_discount_with_specials.xml
+   id        : Fix Discounts wtih Specials
+   version   : 1.0
+   vqmver    : 1.2.3
+   author    : uksb
+
+File Name    : catalog/controller/product/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): foreach ($discounts as $discount) {
+				$data['discounts'][] = array(
+					'quantity' => $discount['quantity'],
+					'price'    => $this->currency->format($this->tax->calculate($discount['price'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency'])
+				);
+			}
+MOD DETAILS:
+   modFile   : /home/cplogic/public_html/vqmod/xml/page_banner_error_solution.xml
+   id        : page_banner_error_solution
+   version   : 4.4
+   vqmver    : 2.5.1
+   author    : output web
+
+File Name    : catalog/view/theme/logicsmoke/template/product/*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <img src="<?php echo $page_banner; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-responsive" />
+----------------------------------------------------------------------
+
+
+---------- Date: 2021-11-15 05:47:46 ~ IP : 108.162.246.187 ----------
+REQUEST URI : /logicsmoke-eliquid/30ml-vg-e-liquid?page=2
+MOD DETAILS:
+   modFile   : /home/cplogic/public_html/vqmod/xml/page_banner_error_solution.xml
+   id        : page_banner_error_solution
+   version   : 4.4
+   vqmver    : 2.5.1
+   author    : output web
+
+File Name    : catalog/view/theme/logicsmoke/template/product/*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <img src="<?php echo $page_banner; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-responsive" />
+----------------------------------------------------------------------
+
+
+---------- Date: 2021-11-15 06:03:54 ~ IP : 162.158.235.105 ----------
+REQUEST URI : /index.php?route=product/product/review&product_id=123
+MOD DETAILS:
+   modFile   : /home/cplogic/public_html/vqmod/xml/page_banner_error_solution.xml
+   id        : page_banner_error_solution
+   version   : 4.4
+   vqmver    : 2.5.1
+   author    : output web
+
+File Name    : catalog/view/theme/logicsmoke/template/product/*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <img src="<?php echo $page_banner; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-responsive" />
+----------------------------------------------------------------------
+
+
+---------- Date: 2021-11-15 06:42:20 ~ IP : 172.70.126.26 ----------
+REQUEST URI : /index.php?route=affiliate/login
+MOD DETAILS:
+   modFile   : /home/cplogic/public_html/vqmod/xml/page_banner_error_solution.xml
+   id        : page_banner_error_solution
+   version   : 4.4
+   vqmver    : 2.5.1
+   author    : output web
+
+File Name    : catalog/view/theme/logicsmoke/template/affiliate/*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <img src="<?php echo $page_banner; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-responsive" />
+----------------------------------------------------------------------
+
+
+---------- Date: 2021-11-15 09:37:24 ~ IP : 172.70.126.26 ----------
+REQUEST URI : /index.php?route=information/faq
+MOD DETAILS:
+   modFile   : /home/cplogic/public_html/vqmod/xml/page_banner_error_solution.xml
+   id        : page_banner_error_solution
+   version   : 4.4
+   vqmver    : 2.5.1
+   author    : output web
+
+File Name    : catalog/view/theme/logicsmoke/template/information/*.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <img src="<?php echo $page_banner; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-responsive" />
+----------------------------------------------------------------------
+
+

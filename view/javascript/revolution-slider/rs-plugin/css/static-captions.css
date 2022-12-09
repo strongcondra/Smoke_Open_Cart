@@ -1,0 +1,15 @@
+.tp-caption.main_font_slider_button_primary a, .tp-caption.main_font_slider_button_secondary a, .tp-caption.main_font_slider_button a, .tp-caption.main_font_slider_button_dark a {
+font-size:18px;
+}
+.tp-caption.main_font_slider_button_primary a {
+color:#d6a916;
+}
+.tp-caption.main_font_slider_button_secondary a {
+color:#276658;
+}
+.tp-caption.main_font_slider_button a {
+color:#ffffff;
+}
+.tp-caption.main_font_slider_button_dark a {
+color:#222222;
+}

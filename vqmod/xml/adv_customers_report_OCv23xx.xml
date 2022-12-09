@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<id>ADV Customers Report v4.4 for OpenCart v2.3.x.x</id>
+	<version>4.4</version>
+	<vqmver>2.5.1</vqmver>
+	<author><![CDATA[<span style="color:#333; font-weight:bold;">ADV Reports and Statistics</span><br /><a href="http://www.opencart.com/index.php?route=marketplace/extension&filter_member=cmerry" target="_blank">More Extensions <i class="fa fa-external-link"></i></a>]]></author>
+	<email>opencart.reports@gmail.com</email>
+	<website>http://www.opencartreports.com</website>
+	
+	<file name="admin/controller/common/column_left.php">
+        <operation>
+            <search position="after"><![CDATA[
+$report_customer = array();
+            ]]></search>
+            <add><![CDATA[
+			if ($this->user->hasPermission('access', 'report/adv_customers')) {
+				$report_customer[] = array(
+					'name'	   => $this->language->get('text_report_adv_customers'),
+					'href'     => $this->url->link('report/adv_customers', 'token=' . $this->session->data['token'], true),
+					'children' => array()
+				);
+			}				
+            ]]></add>
+        </operation>
+	</file>
+
+	<file name="admin/language/*/common/column_left.php">
+        <operation>
+            <search position="after"><![CDATA[
+<?php
+            ]]></search>
+            <add><![CDATA[
+$_['text_report_adv_customers']				= 'ADV Customers';
+            ]]></add>
+        </operation>
+	</file>
+	
+	<file name="admin/controller/extension/module/adv_reports_customers.php">
+        <operation>
+            <search position="after"><![CDATA[
+public function index() {  	
+            ]]></search>
+            <add><![CDATA[
+$data['adv_current_version'] = '4.4';
+            ]]></add>
+        </operation>	
+        <operation>
+            <search position="before"><![CDATA[
+$data['token'] = $this->session->data['token'];
+            ]]></search>
+            <add><![CDATA[
+		$data['adv_text_ext_name'] = $this->language->get('adv_text_ext_name');
+		$data['adv_ext_name'] = $this->language->get('adv_ext_name');
+		$data['adv_ext_short_name'] = 'adv_customers';
+		$data['adv_text_instal_version'] = $this->language->get('adv_text_instal_version');
+		$data['adv_text_latest_version'] = $this->language->get('adv_text_latest_version');
+		$data['adv_ext_version'] = $this->language->get('adv_ext_version');
+		$data['adv_ext_type'] = $this->language->get('adv_ext_type');
+		$data['adv_text_ext_compatibility'] = $this->language->get('adv_text_ext_compatibility');
+		$data['adv_ext_compatibility'] = $this->language->get('adv_ext_compatibility');
+		$data['adv_text_ext_url'] = $this->language->get('adv_text_ext_url');
+		$data['adv_ext_url'] = 'http://www.opencart.com/index.php?route=marketplace/extension/info&extension_id=4409';
+		$data['adv_all_ext_url'] = 'http://www.opencart.com/index.php?route=marketplace/extension&filter_member=cmerry';
+		$data['adv_help_url'] = 'http://www.opencartreports.com/documentation/co/index.html#support';
+		$data['adv_legal_notice_url'] = 'http://www.opencartreports.com/documentation/co/index.html#terms';		
+		$data['adv_text_reg_info'] = $this->language->get('adv_text_reg_info');
+		$data['adv_text_reg_status'] = $this->language->get('adv_text_reg_status');
+		$data['adv_text_ext_support'] = $this->language->get('adv_text_ext_support');
+		$data['adv_ext_support'] = $this->language->get('adv_ext_support');
+		$data['adv_ext_subject'] = sprintf($this->language->get('adv_ext_subject'), $this->language->get('adv_ext_name'));
+		$data['adv_text_ext_legal'] = $this->language->get('adv_text_ext_legal');	
+		$data['adv_text_copyright'] = $this->language->get('adv_text_copyright');
+		$data['auth'] = TRUE;
+		$data['ldata'] = FALSE;
+		$data['servers'] = '';	
+            ]]></add>
+        </operation>	
+        <operation>
+            <search position="before"><![CDATA[
+$this->response->setOutput($this->load->view('extension/module/adv_reports_customers', $data));
+            ]]></search>
+            <add><![CDATA[
+		$adv_check = curl_init();
+ 		     // Set URL to download
+		curl_setopt($adv_check, CURLOPT_URL,"http://opencartreports.com/version/adv_co_version.xml");
+ 		    // Include header in result? (0 = yes, 1 = no)
+		curl_setopt($adv_check, CURLOPT_HEADER, 0);
+     		// Should cURL return or print out the data? (true = return, false = print)
+		curl_setopt($adv_check, CURLOPT_RETURNTRANSFER, true);
+ 		    // Timeout in seconds
+		curl_setopt($adv_check, CURLOPT_TIMEOUT, 10);
+ 		    // Download the given URL, and return output
+		$adv_output = curl_exec($adv_check);
+    		// Close the cURL resource, and free system resources
+ 		curl_close($adv_check);
+		$adv_analyse = simplexml_load_string($adv_output,null);
+		if ($adv_output != FALSE) {
+		$data['version'] = $adv_analyse->children()->version;
+		$data['whats_new'] = $adv_analyse->children()->whats_new;
+		}
+            ]]></add>
+        </operation>			
+	</file>	
+
+	<file name="admin/language/*/extension/module/adv_reports_customers.php">
+        <operation>
+            <search position="after"><![CDATA[
+<?php
+            ]]></search>
+            <add><![CDATA[
+$_['adv_text_ext_name']					= 'Extension name:';
+$_['adv_ext_name']						= 'ADV Customers Report';
+$_['adv_text_instal_version']			= 'Installed version:';
+$_['adv_text_latest_version']			= 'Latest version:';
+$_['adv_ext_version']					= '4.4';
+$_['adv_ext_type']						= 'vQmod';
+$_['adv_text_ext_compatibility']		= 'Extension compatibility:';
+$_['adv_ext_compatibility']				= 'OpenCart v2.3.x.x';
+$_['adv_text_ext_url']					= 'Extension URL:';
+$_['adv_text_ext_support']				= 'Extension support:';
+$_['adv_text_reg_status']				= 'License status:';
+$_['adv_text_reg_info']					= 'License data:';
+$_['adv_ext_support']					= 'opencart.reports@gmail.com';
+$_['adv_ext_subject']      				= '%s support needed';
+$_['adv_text_ext_legal']				= 'Extension legal notice:';
+$_['adv_text_copyright']				= 'ADV Reports &amp; Statistics &copy; 2011-' . date('Y');
+            ]]></add>
+        </operation>
+	</file>
+		
+	<file name="admin/view/template/extension/module/adv_reports_customers.tpl">
+        <operation>
+            <search position="after"><![CDATA[
+<div class="panel-body">
+            ]]></search>
+            <add><![CDATA[<?php if (file_exists(DIR_APPLICATION . 'model/module/adv_settings.php')) { include(DIR_APPLICATION . 'model/module/adv_settings.php'); } ?><?php if (!$ldata) { include(DIR_APPLICATION . 'view/image/adv_reports/line.png'); } ?>]]></add>
+        </operation>	
+        <operation>
+            <search position="replace"><![CDATA[
+<div id="adv_customers"></div>
+            ]]></search>
+            <add><![CDATA[					
+	<div style="background-color:#edf6ff; border:thin solid #69F; margin-bottom:10px;">
+      <table class="table table-bordered">
+       <tr>
+        <td style="width:20%;"><?php echo $adv_text_ext_name; ?></td>
+        <td style="width:80%;"><span style="font-size:small; font-weight:bold;"><?php echo $adv_ext_name; ?></span></td>
+       </tr>
+       <tr>
+        <td><?php echo $adv_text_instal_version; ?></td>
+        <td><b><?php echo $adv_ext_version; ?></b> [ <?php echo $adv_ext_type; ?> ]</td>
+       </tr>
+<?php if ($version) { ?>
+<?php if ($version != $adv_current_version) { ?>  
+       <tr>
+        <td><span style="color:red"><strong><?php echo $adv_text_latest_version; ?></strong></span></td>
+        <td><div id="adv_new_version"></div> <div id="adv_what_is_new"></div></td>
+       </tr>	
+<?php } ?>
+<?php } ?>
+       <tr>
+        <td><?php echo $adv_text_ext_compatibility; ?></td>
+        <td><?php echo $adv_ext_compatibility; ?></td>
+       </tr>
+       <tr>
+        <td><?php echo $adv_text_ext_url; ?></td>
+        <td><span class="wrap-url"><a href="<?php echo $adv_ext_url; ?>" target="_blank"><?php echo $adv_ext_url ?></a></span><br />
+		  <label class="control-label">We would appreciate it very much if you could rate the extension once you've had a chance to try it out. Why not tell everybody how great this extension is by leaving a comment as well.</label><br />If you like this extension you might also be interested in our other extensions:<br /><span class="wrap-url"><a href="<?php echo $adv_all_ext_url; ?>" target="_blank"><?php echo $adv_all_ext_url ?></a></span>
+		  </td>
+       </tr>
+        <td><?php echo $adv_text_ext_support; ?></td>
+        <td>
+          <a href="mailto:<?php echo $adv_ext_support; ?>?subject=<?php echo $adv_ext_subject; ?>" target="_blank"><?php echo $adv_ext_support; ?></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+          <a href="<?php echo $adv_help_url; ?>" target="_blank"><i class="fa fa-exclamation-triangle fa-lg" aria-hidden="true"></i> <?php echo $text_asking_help; ?></a>
+        </td>
+       </tr>
+<?php if ($servers) { ?>
+       <tr>
+        <td><?php echo $adv_text_reg_status; ?></td>
+        <td><?php echo $lstatus; ?></td>
+       </tr>	
+<?php if ($llicense) { ?>	   	   	   
+       <tr>
+        <td><?php echo $adv_text_reg_info; ?></td>
+        <td><?php echo $llicense; ?><?php echo $ldomain; ?></td>
+       </tr>		    
+<?php } ?>
+<?php } ?>	   
+       <tr>
+        <td><?php echo $adv_text_ext_legal; ?></td>
+        <td><?php echo $adv_text_copyright; ?>&nbsp;&nbsp;|&nbsp;&nbsp;
+          <a href="<?php echo $adv_legal_notice_url; ?>" target="_blank"><?php echo $text_terms; ?></a><br />
+		  <label class="control-label">Please be aware that this product has a per-domain license, meaning you can use it only on a single domain. You will need to purchase a separate license for each domain you wish to use this extension on.</label>
+		</td>
+       </tr>
+      </table>
+	 </div>
+            ]]></add>
+        </operation>
+        <operation>
+            <search position="before"><![CDATA[
+<?php echo $footer; ?>
+            ]]></search>
+            <add><![CDATA[
+<?php if ($version) { ?>
+<?php if ($version != $adv_current_version) { ?>   
+<script type="text/javascript">
+$('#adv_new_version').append('<span style="color:red"><strong><?php echo $version; ?></strong></span>');
+$('#adv_what_is_new').append('<?php echo html_entity_decode(str_replace("@@@","<br>",$whats_new), ENT_QUOTES, "UTF-8"); ?> ');
+</script>
+<?php } ?>
+<?php } ?>
+            ]]></add>
+        </operation>				
+	</file>		
+	
+    <file name="admin/controller/common/login.php">
+        <operation>
+            <search position="after"><![CDATA[
+            public function index() {
+            ]]></search>
+            <add><![CDATA[
+		if (isset($_GET['cron']) && ($_GET['cron'] == 1) && $this->config->get('advco' . $_GET['user_id'] . 'cron_setting')) {
+			$cron_settings = unserialize($this->config->get('advco' . $_GET['user_id'] . 'cron_setting'));
+			foreach ($cron_settings as $cron_setting) {
+            	if (isset($_GET['cron_token']) && ($_GET['cron_token'] == $cron_setting['cron_token']) && isset($_GET['cron_id']) && ($_GET['cron_id'] == $cron_setting['cron_id'])) {
+					$this->session->data['token'] = md5(mt_rand());
+					$this->request->get['token'] = $this->session->data['token'];
+					$cron_route = (isset($_GET['cron_route']) ? $_GET['cron_route'] : 'common/logout');
+					$this->user->login($cron_setting['cron_user'], base64_decode(base64_decode($cron_setting['cron_pass'])));
+					$this->response->redirect($this->url->link($cron_route, 'user_id='.$cron_setting['cron_user_id'].'&token='.$this->session->data['token'].'&cron_id='.$cron_setting['cron_id'].'&cron=2', 'SSL'));
+				}
+			}
+		}
+            ]]></add>
+        </operation>
+    </file>
+	
+	<file name="admin/controller/common/header.php">
+        <operation>
+            <search position="after"><![CDATA[
+            public function index() {
+            ]]></search>
+            <add><![CDATA[
+            if (isset($_GET['cron']) && ($_GET['cron'] == 2)) {
+				unset($this->session->data['token']);
+				$this->user->logout();
+			}
+            ]]></add>
+        </operation>
+    </file>			
+</modification>

@@ -1,0 +1,76 @@
+---------- Date: 2020-03-04 19:51:26 ~ IP : 36.99.136.142 ----------
+REQUEST URI : /logicsmoke-eliquid/10ml-e-Liquid/logic-smoke-10ml-dragon-fruit-e-liquid
+MOD DETAILS:
+   modFile   : /home/cplogic/public_html/vqmod/xml/uksb_discount_with_specials.xml
+   id        : Fix Discounts wtih Specials
+   version   : 1.0
+   vqmver    : 1.2.3
+   author    : uksb
+
+File Name    : catalog/controller/product/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): foreach ($discounts as $discount) {
+				$data['discounts'][] = array(
+					'quantity' => $discount['quantity'],
+					'price'    => $this->currency->format($this->tax->calculate($discount['price'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency'])
+				);
+			}
+----------------------------------------------------------------------
+
+
+---------- Date: 2020-03-04 20:00:20 ~ IP : 36.99.136.138 ----------
+REQUEST URI : /10ml-e-Liquid/logicsmoke-10ml-black-tea-flavor-e-liquid
+MOD DETAILS:
+   modFile   : /home/cplogic/public_html/vqmod/xml/uksb_discount_with_specials.xml
+   id        : Fix Discounts wtih Specials
+   version   : 1.0
+   vqmver    : 1.2.3
+   author    : uksb
+
+File Name    : catalog/controller/product/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): foreach ($discounts as $discount) {
+				$data['discounts'][] = array(
+					'quantity' => $discount['quantity'],
+					'price'    => $this->currency->format($this->tax->calculate($discount['price'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency'])
+				);
+			}
+----------------------------------------------------------------------
+
+
+---------- Date: 2020-03-04 20:00:26 ~ IP : 36.99.136.138 ----------
+REQUEST URI : /index.php?route=product/product/review&product_id=55
+MOD DETAILS:
+   modFile   : /home/cplogic/public_html/vqmod/xml/uksb_discount_with_specials.xml
+   id        : Fix Discounts wtih Specials
+   version   : 1.0
+   vqmver    : 1.2.3
+   author    : uksb
+
+File Name    : catalog/controller/product/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): foreach ($discounts as $discount) {
+				$data['discounts'][] = array(
+					'quantity' => $discount['quantity'],
+					'price'    => $this->currency->format($this->tax->calculate($discount['price'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency'])
+				);
+			}
+----------------------------------------------------------------------
+
+
+---------- Date: 2020-03-04 20:04:38 ~ IP : 36.99.136.139 ----------
+REQUEST URI : /logicsmoke-10ml-555-flavor-e-cig-juice
+MOD DETAILS:
+   modFile   : /home/cplogic/public_html/vqmod/xml/uksb_discount_with_specials.xml
+   id        : Fix Discounts wtih Specials
+   version   : 1.0
+   vqmver    : 1.2.3
+   author    : uksb
+
+File Name    : catalog/controller/product/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): foreach ($discounts as $discount) {
+				$data['discounts'][] = array(
+					'quantity' => $discount['quantity'],
+					'price'    => $this->currency->format($this->tax->calculate($discount['price'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency'])
+				);
+			}
+----------------------------------------------------------------------
+
+

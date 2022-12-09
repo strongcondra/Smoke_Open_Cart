@@ -1,0 +1,73 @@
+.extpanel{
+	border-radius:0px;
+}
+.extpanel-title i{
+	margin-right:5px;
+}
+.btable-bordered .noborder{
+	border:0px;
+}
+.extinput-group .extbtn-block{
+	width:20%;
+}
+.extinput-group input, .extinput-group .extbtn-block{
+	display:table-cell;
+	vertical-align: top;
+}
+#onepagecheckout .fa-5x{
+	font-size:5em;
+}
+.extcover{
+	position: relative;
+}
+.extloader{
+	background-color:rgba(255,255,255,0.9);
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index: 999;
+}
+.extloader img{
+	color:#fff;
+	position:absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin:auto;
+	width:64px;
+	height:64px;
+}
+.min-hght{
+	min-height: 350px; 
+	position: relative;
+}
+.balert-danger{
+	background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+}
+@media (max-width:768px){
+	.extinput-group{
+		margin-bottom:15px;
+	}
+	.tdproductname{
+		white-space: normal !important;
+	}
+}
+@media (min-width:768px) and (max-width:900px){
+	.qwidth786{
+		width:40%;
+	}
+	.qwidth786 .formcontrol {
+		padding:0 5px;
+	}
+	.qwidth786 .btn {
+		 padding: 7.5px 9px;
+	}
+}
+@media (max-width:980px){
+	.qwidth786{
+		width:auto;
+	}
+}

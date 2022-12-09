@@ -1,0 +1,14 @@
+1. customer group issue has solved,
+2. Hide delivery address
+3. auto checked delivery and billing addresses are the same.
+
+
+
+
+change log
+model customer.php
+onepagecheckout.js
+shipping_method.php
+payment_details.tpl
+validate.php
+admin files.

@@ -1,0 +1,6752 @@
+2018-04-19 7:22:16 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 112
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 7:22:18 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 112
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 7:22:22 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 112
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 7:24:00 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 7:24:03 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 7:24:05 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 7:24:07 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 10:45:00 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['text_information']
+LINE: 14
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_powered']
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+
+FILE: catalog/view/theme/logicsmoke/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 10:45:03 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['text_information']
+LINE: 14
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_powered']
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+
+FILE: catalog/view/theme/logicsmoke/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 10:45:05 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['text_information']
+LINE: 14
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_powered']
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+
+FILE: catalog/view/theme/logicsmoke/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:16:03 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['text_information']
+LINE: 14
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_powered']
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+
+FILE: catalog/view/theme/logicsmoke/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:16:06 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['text_information']
+LINE: 14
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_powered']
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+
+FILE: catalog/view/theme/logicsmoke/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:17:23 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['text_information']
+LINE: 14
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_powered']
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+
+FILE: catalog/view/theme/logicsmoke/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:17:25 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['text_information']
+LINE: 14
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_powered']
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+
+FILE: catalog/view/theme/logicsmoke/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:22:00 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['text_information']
+LINE: 14
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_powered']
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+
+FILE: catalog/view/theme/logicsmoke/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 24
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:22:03 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['text_information']
+LINE: 14
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_powered']
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+
+FILE: catalog/view/theme/logicsmoke/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 24
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:22:35 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['text_information']
+LINE: 14
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_powered']
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+
+FILE: catalog/view/theme/logicsmoke/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 24
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:22:38 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['text_information']
+LINE: 14
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_powered']
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+
+FILE: catalog/view/theme/logicsmoke/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 24
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:23:26 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['text_information']
+LINE: 14
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_powered']
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+
+FILE: catalog/view/theme/logicsmoke/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 28
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:23:29 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['text_information']
+LINE: 14
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_powered']
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+
+FILE: catalog/view/theme/logicsmoke/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 28
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:25:00 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['text_information']
+LINE: 14
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_powered']
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+
+FILE: catalog/view/theme/logicsmoke/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 30
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:25:05 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['text_information']
+LINE: 14
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_powered']
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+
+FILE: catalog/view/theme/logicsmoke/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 30
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:25:08 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['text_information']
+LINE: 14
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_powered']
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+
+FILE: catalog/view/theme/logicsmoke/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 30
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:27:13 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['text_information']
+LINE: 14
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_powered']
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+
+FILE: catalog/view/theme/logicsmoke/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 28
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:27:15 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['text_information']
+LINE: 14
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_powered']
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+
+FILE: catalog/view/theme/logicsmoke/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 28
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:28:13 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['text_information']
+LINE: 14
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_powered']
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+
+FILE: catalog/view/theme/logicsmoke/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 30
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:28:15 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['text_information']
+LINE: 14
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_powered']
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+
+FILE: catalog/view/theme/logicsmoke/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 30
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:29:01 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/controller/common/footer.php
+CODE: $data['text_information']
+LINE: 14
+
+FILE: catalog/language/en-gb/common/footer.php
+CODE: $_['text_powered']
+LINE: 19
+
+FILE: catalog/view/theme/default/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 23
+
+FILE: catalog/view/theme/logicsmoke/template/common/footer.tpl
+CODE: <?php echo $sitemap; ?>
+LINE: 28
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:31:00 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:31:02 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:31:31 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:31:33 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-04-19 13:31:37 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+2018-05-04 5:08:22 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 7
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-05-04 5:08:27 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 7
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-05-22 5:12:08 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 7
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-05-22 5:15:37 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 7
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-07-10 5:33:52 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 7
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-07-10 5:33:58 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 7
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-07-10 5:34:08 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+
+FILE: admin/controller/common/column_left.php
+CODE: // Sales
+LINE: 319
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 114
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 7
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-07-19 11:42:32 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-08-20 6:36:45 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-08-24 4:54:37 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-08-24 5:01:26 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-08-24 9:13:09 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-08-24 9:17:07 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-08-24 9:19:34 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-08-27 10:22:15 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-09-18 12:14:02 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-09-18 12:14:06 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-09-18 13:04:53 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-10-08 7:27:37 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-10-09 6:36:34 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-10-09 6:37:30 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-10-09 6:37:32 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-10-09 6:41:18 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-10-09 6:46:02 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-10-09 6:51:45 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-10-09 6:52:54 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-10-09 6:54:06 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-10-09 6:59:18 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-10-12 7:10:15 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2018-12-17 5:20:57 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2019-12-02 4:53:35 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2019-12-02 7:07:56 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2019-12-14 4:56:16 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2019-12-14 7:08:05 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2019-12-14 7:11:08 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2020-02-28 13:15:43 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2021-11-08 0:36:25 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------
+2021-11-15 5:29:46 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: <b style="color:#4170bd">ADV Sales Report</b>
+
+FILE: admin/controller/common/column_left.php
+CODE: $report_sale = array();
+LINE: 686
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: <?php
+LINE: 3
+
+FILE: admin/controller/extension/module/adv_reports_sales.php
+CODE: public function index() {
+LINE: 7
+CODE: $data['token'] = $this->session->data['token'];
+LINE: 57
+CODE: $this->response->setOutput($this->load->view('extension/module/adv_reports_sales', $data));
+LINE: 103
+
+FILE: admin/language/en-gb/extension/module/adv_reports_sales.php
+CODE: <?php
+LINE: 18
+
+FILE: admin/view/template/extension/module/adv_reports_sales.tpl
+CODE: <div class="panel-body">
+LINE: 36
+CODE: <div id="adv_sales"></div>
+LINE: 42
+CODE: <?php echo $footer; ?>
+LINE: 122
+
+FILE: admin/controller/common/login.php
+CODE: public function index() {
+LINE: 18
+
+FILE: admin/controller/common/header.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: Faq Manager
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $data['heading_title']
+LINE: 12
+
+FILE: catalog/language/en-gb/extension/module/account.php
+CODE: $_['heading_title']
+LINE: 5
+
+FILE: catalog/view/theme/default/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+
+FILE: catalog/view/theme/logicsmoke/template/extension/module/account.tpl
+CODE: <a href="<?php echo $newsletter; ?>" class="list-group-item"><?php echo $text_newsletter; ?></a>
+LINE: 8
+----------------------------------------------------------------
+MOD: Local copy OCMOD by iSenseLabs
+
+FILE: admin/controller/extension/installer.php
+CODE: 'url'  => str_replace('&amp;', '&', $this->url->link('extension/installer/ftp', 'token=' . $this->session->data['token'],
+LINE: 131
+CODE: public function unzip() {
+LINE: 292
+----------------------------------------------------------------
+MOD: Modification  Simpleblog
+CODE: // Sales
+LINE: 319
+CODE: $_['text_other_status']              = 'Other Statuses';
+LINE: 117
+
+FILE: admin/controller/setting/setting.php
+CODE: if (isset($this->request->post['config_logo'])) {
+LINE: 954
+CODE: $data['text_return'] = $this->language->get('text_return');
+LINE: 47
+
+FILE: admin/language/en-gb/setting/setting.php
+CODE: $_['text_affiliate']               = 'Affiliates';
+LINE: 21
+----------------------------------------------------------------
+MOD: Product Import Export Suite (FREE)
+CODE: // Text
+LINE: 10
+CODE: if ($this->user->hasPermission('access', 'tool/backup')) {
+LINE: 715
+----------------------------------------------------------------

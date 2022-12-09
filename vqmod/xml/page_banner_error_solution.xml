@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<id>page_banner_error_solution</id>
+	<version>4.4</version>
+	<vqmver>2.5.1</vqmver>
+	<author><![CDATA[output web]]></author>
+	<file name="catalog/view/theme/logicsmoke/template/account/*.tpl">
+        <operation>
+            <search position="replace"><![CDATA[<img src="<?php echo $page_banner; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-responsive" />]]></search>
+            <add><![CDATA[
+				<img src="" alt="" title="" class="img-responsive" />			
+            ]]></add>
+        </operation>
+	</file>
+	<file name="catalog/view/theme/logicsmoke/template/error/*.tpl">
+        <operation>
+            <search position="replace"><![CDATA[<img src="<?php echo $page_banner; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-responsive" />]]></search>
+            <add><![CDATA[
+				<img src="" alt="" title="" class="img-responsive" />			
+            ]]></add>
+        </operation>
+	</file>
+	<file name="catalog/view/theme/logicsmoke/template/product/*.tpl">
+        <operation>
+            <search position="replace"><![CDATA[<img src="<?php echo $page_banner; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-responsive" />]]></search>
+            <add><![CDATA[
+				<img src="" alt="" title="" class="img-responsive" />			
+            ]]></add>
+        </operation>
+	</file>
+	<file name="catalog/view/theme/logicsmoke/template/affiliate/*.tpl">
+        <operation>
+            <search position="replace"><![CDATA[<img src="<?php echo $page_banner; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-responsive" />]]></search>
+            <add><![CDATA[
+				<img src="" alt="" title="" class="img-responsive" />			
+            ]]></add>
+        </operation>
+	</file>
+	<file name="catalog/view/theme/logicsmoke/template/checkout/*.tpl">
+        <operation>
+            <search position="replace"><![CDATA[<img src="<?php echo $page_banner; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-responsive" />]]></search>
+            <add><![CDATA[
+				<img src="" alt="" title="" class="img-responsive" />			
+            ]]></add>
+        </operation>
+	</file>
+	<file name="catalog/view/theme/logicsmoke/template/common/*.tpl">
+        <operation>
+            <search position="replace"><![CDATA[<img src="<?php echo $page_banner; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-responsive" />]]></search>
+            <add><![CDATA[
+				<img src="" alt="" title="" class="img-responsive" />			
+            ]]></add>
+        </operation>
+	</file>
+	<file name="catalog/view/theme/logicsmoke/template/extension/*.tpl">
+        <operation>
+            <search position="replace"><![CDATA[<img src="<?php echo $page_banner; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-responsive" />]]></search>
+            <add><![CDATA[
+				<img src="" alt="" title="" class="img-responsive" />			
+            ]]></add>
+        </operation>
+	</file>
+	<file name="catalog/view/theme/logicsmoke/template/information/*.tpl">
+        <operation>
+            <search position="replace"><![CDATA[<img src="<?php echo $page_banner; ?>" alt="<?php echo $heading_title; ?>" title="<?php echo $heading_title; ?>" class="img-responsive" />]]></search>
+            <add><![CDATA[
+				<img src="" alt="" title="" class="img-responsive" />			
+            ]]></add>
+        </operation>
+	</file>
+	
+</modification>

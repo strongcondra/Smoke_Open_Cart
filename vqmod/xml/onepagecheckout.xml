@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<name>OnePage Checkout</name>
+	<version>v2.0</version>
+	<code>OnePage Checkout</code>
+	<author>Extensions Bazaar</author>
+	<file name="catalog/controller/checkout/cart.php">
+		<operation>
+			<search position="after"><![CDATA[$this->document->setTitle($this->language->get('heading_title'));]]></search>
+			<add ><![CDATA[
+		if($this->config->get('onepagecheckout_status') && $this->config->get('onepagecheckout_auto_redirect')){
+			$this->response->redirect($this->url->link('onepagecheckout/checkout','','SSL'));
+		}
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/controller/checkout/checkout.php">
+		<operation>
+			<search position="after"><![CDATA[$this->cart->getProducts();]]></search>
+			<add ><![CDATA[
+		if($this->config->get('onepagecheckout_status')){
+			$this->response->redirect($this->url->link('onepagecheckout/checkout','','SSL'));
+		}
+			]]></add>
+		</operation>
+	</file>
+	<file name="admin/view/template/common/header.tpl">
+		<operation>
+			<search position="after"><![CDATA[<script type="text/javascript" src="view/javascript/jquery/jquery-2.1.1.min.js"></script>]]></search>
+			<add ><![CDATA[
+<script src="view/javascript/onepagecheckout/jquery-ui.js"></script>
+			]]></add>
+		</operation>
+	</file>
+	<file name="admin/controller/common/column_left.php">
+		<operation>
+			<search position="before"><![CDATA[$extension = array();]]></search>
+			<add ><![CDATA[
+				// checkout
+				$checkout = array();
+				if ($this->user->hasPermission('access', 'checkout/onepagecheckout')) {
+					$checkout[] = array(
+						'name'	   => 'Checkout',
+						'href'     => $this->url->link('checkout/onepagecheckout', 'token=' . $this->session->data['token'], true),
+						'children' => array()	
+					);
+				}
+				if ($this->user->hasPermission('access', 'checkout/order_success_page')) {
+					$checkout[] = array(
+						'name'	   => 'Order Success Page',
+						'href'     => $this->url->link('checkout/order_success_page', 'token=' . $this->session->data['token'], true),
+						'children' => array()	
+					);
+				}
+				
+				if ($checkout) {
+					$data['menus'][] = array(
+						'id'       => 'menu-sale',
+						'icon'	   => 'fa-shopping-cart', 
+						'name'	   => 'Onepage Checkout',
+						'href'     => '',
+						'children' => $checkout
+					);
+				}
+			]]></add>
+		</operation>
+	</file>
+	<file name="catalog/controller/checkout/success.php">
+		<operation error="log">
+			<search position="after"><![CDATA[$this->load->language('checkout/success');]]></search>
+			<add ><![CDATA[
+		if($this->config->get('order_success_page_status')){
+		  $this->response->redirect($this->url->link('onepagecheckout/ordersuccess&order_id='.$this->session->data['order_id'], '', 'SSL'));
+		}
+			]]></add>
+		</operation>
+	</file>
+</modification>

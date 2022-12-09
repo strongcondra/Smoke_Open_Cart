@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modification>
+	<name>Reward System Plus</name>
+	<version>v2.0</version>
+	<code>Reward System Plus</code>
+	<author>Angel Reina - (@aleoreina)</author>
+    <file name="catalog/controller/account/order.php">
+        <operation info="Fixing order show complete product name">
+            <search position="replace">'value' => (utf8_strlen($value) > 20 ? utf8_substr($value, 0, 20) . '..' : $value)</search>
+            <add>'value' => $value</add>
+        </operation>
+    </file>
+    <file name="admin/view/template/catalog/product_form.tpl">
+        <operation info="Hiding + and - Select">
+            <search position="replace">[points_prefix]" class="form-control"</search>
+            <add>[points_prefix]" class="form-control" style="display:none;"</add>
+        </operation>
+    </file>
+   <file name="admin/language/en-gb/catalog/product.php">
+        <operation info="Fixing lang from points to Reward Points">
+            <search position="replace">$_['entry_option_points']    = 'Points';</search>
+            <add>$_['entry_option_points']    = 'Reward Points';</add>
+        </operation>
+    </file>
+    <file name="catalog/controller/onepagecheckout/cart.php">
+        <operation info="Replacing onepagecheckout checkout page to show the properly in my cart the reward points with option">
+            <search position="before">foreach ($product['option'] as $option) {</search>
+            <add>
+				$base_reward = $product['reward'];
+				$total_option_reward = 0;
+				$total_qty = $product['quantity'];
+                foreach ($product['option'] as $option) {
+                    $total_option_reward = ($total_option_reward + $option['points']) * $total_qty;
+                }
+				$product['reward'] = ($base_reward + $total_option_reward);
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/model/checkout/order.php">
+        <operation info="Replacing order model  to show the properly in my cart the reward points with option when pay">
+            <search position="before" index="1,2">$this->db->query("INSERT INTO " . DB_PREFIX . "order_product SET order_id = '" . (int)$order_id . "', product_id = '" . (int)$product['product_id'] . "', name = '" . $this->db->escape($product['name']) . "', model = '" . $this->db->escape($product['model']) . "', quantity = '" . (int)$product['quantity'] . "', price = '" . (float)$product['price'] . "', total = '" . (float)$product['total'] . "', tax = '" . (float)$product['tax'] . "', reward = '" . (int)$product['reward'] . "'");</search>
+            <add>
+				$base_reward = $product['reward'];
+				$total_option_reward = 0;
+				$total_qty = $product['quantity'];
+                foreach ($product['option'] as $option) {
+                    $id_option_value_points = $option['product_option_value_id'];
+		            $query_option = $this->db->query("SELECT points FROM " . DB_PREFIX . "product_option_value WHERE product_option_value_id = $id_option_value_points");
+                    $reward_points_from_query = $query_option->row['points'];
+                    $total_option_reward = ($total_option_reward + $reward_points_from_query) * $total_qty;
+                }
+				$product['reward'] = ($base_reward + $total_option_reward);
+            </add>
+        </operation>
+    </file>
+    <file name="catalog/model/checkout/order.php">
+        <operation info="Replacing order model to show the properly in my cart the reward points with option when pay">
+            <search position="before" index="1">return $order_id;</search>
+            <add>
+                $order_info = $this->getOrder($order_id);
+                $customer_id = $order_info['customer_id'];
+                $points = $product['reward'];
+			    $description = "Order # " . $order_id . " Reward Points, Thanks for bought!";
+                $this->db->query("INSERT INTO " . DB_PREFIX . "customer_reward SET customer_id = '" . (int)$customer_id . "', order_id = '" . (int)$order_id . "', points = '" . (int)$points . "', description = '" . $this->db->escape($description) . "', date_added = NOW()");
+            </add>
+        </operation>
+    </file>
+</modification> 

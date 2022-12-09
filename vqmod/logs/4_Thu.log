@@ -1,0 +1,19 @@
+---------- Date: 2020-03-12 23:20:55 ~ IP : 23.100.232.233 ----------
+REQUEST URI : /LogicSmoke-10ml-Hilignton-e-Liquid
+MOD DETAILS:
+   modFile   : /home/cplogic/public_html/vqmod/xml/uksb_discount_with_specials.xml
+   id        : Fix Discounts wtih Specials
+   version   : 1.0
+   vqmver    : 1.2.3
+   author    : uksb
+
+File Name    : catalog/controller/product/product.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): foreach ($discounts as $discount) {
+				$data['discounts'][] = array(
+					'quantity' => $discount['quantity'],
+					'price'    => $this->currency->format($this->tax->calculate($discount['price'], $product_info['tax_class_id'], $this->config->get('config_tax')), $this->session->data['currency'])
+				);
+			}
+----------------------------------------------------------------------
+
+
